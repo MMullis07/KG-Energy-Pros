@@ -1,0 +1,446 @@
+body {
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    background: url('../img/tile.jpg') top left repeat;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h1,h2 {
+    margin: 0 0 40px;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p{
+    margin: 0 0 15px;
+}
+
+p.lead {
+    font-weight: normal;
+    color: black;
+}
+
+a:link, a:visited{
+   
+    
+}
+
+a:hover {
+    text-decoration: none !important;
+   
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #28a745;
+}
+
+.nav-item:hover {
+    background-color: #5f8250;
+    border-radius: 10px;
+    
+}
+
+button, input, .btn, a.btn {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: white;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+button.btn:focus {
+    outline: none !important;
+}
+
+.btn-danger.one {
+    background-color: #dd5638;
+    border-color: #d95131;
+    margin-right: 10px;
+}
+
+.btn-danger.two {
+    background-color: #dd5638;
+    border-color: #d95131;
+    margin-left: 10px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.btn-danger.three {
+    background-color: #dd5638;
+    border-color: #d95131;
+    margin-left: 10px;
+}
+
+.btn-success {
+    background: #79b044;
+    border: none;
+}
+
+.btn-success:hover {
+    background: #6a9b3d;
+    border-color: #6a9b3d;
+   
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo-header {
+    height: 50px;
+    border-radius: 10px;
+}
+
+/*HERO*/
+#hero {
+    background: url('../img/energy-bg.jpg')  center center fixed no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+    display: table;
+    width: 100%;
+    padding: 40px 0;
+    color: #5f8250;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+#hero .hero-text {
+    margin-top: 30px;
+}
+
+#hero article {
+    width: 100%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*How to Save*/
+.row + .row {
+    margin-top: 20px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section.main-content {
+    padding: 40px 0;
+}
+
+.section-header {
+    text-align: center;
+}
+
+section h2 {
+    margin: 20px 0 40px;
+    color: #5f8250;
+}
+
+section h3 {
+    margin: 30px 0 10px;
+}
+
+#primary {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*Testimonial HP */
+#kudos {
+    text-align: center;
+    background: white;
+}
+
+.testimonial {
+    margin-bottom: 60px;
+}
+
+.testimonial img {
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    border-radius: 25px;
+}
+
+blockquote {
+    padding: 0;
+    border: none;
+    font-style: italic;
+    text-align: left;
+}
+
+blockquote cite {
+    display: block;
+    color: #777;
+    margin: 15px 0 0 0;
+}
+
+blockquote:before {
+    display: none;
+}
+
+/*Video Featurettes*/
+#featurette {
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+/*How Does it Work */
+#how-does-it-work {
+    background: white;
+}
+
+/*Footer*/
+footer {
+    background: #3e4249;
+    color: white;
+    padding: 20px 0 10px;
+    font-size: 12px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.modal {
+    overflow-y: auto;
+}
+
+footer a:link, footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    color: #6a9b3d;
+}
+
+/* MODAL */
+.modal-open {
+    overflow: auto;
+}
+
+.modal-open[style]{
+    padding-right: 0px !important;
+}
+
+.modal-content {
+    padding: 20px;
+    margin: 20px;
+}
+
+.form-group {
+    padding: 5px;
+}
+
+input.bt.btn-danger {
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: #6a9b3d;
+    border: #28a745;
+}
+input.bt.btn-danger:hover {
+    background-color: #28a745;
+    border: #6a9b3d;
+}
+
+/*Reviews*/
+#reviews {
+    text-align: center;
+    background: white;
+}
+
+#reviews h3 {
+    margin-top: 0;
+}
+
+.testimonial-reviews {
+    margin-bottom: 60px;
+}
+
+.testimonial-reviews img {
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    border-radius: 25px;
+    
+}
+
+blockquote {
+    padding: 0;
+    border: none;
+    font-style: italic;
+    text-align: left;
+}
+
+blockquote cite {
+    display: block;
+    color: #777;
+    margin: 15px 0 0 0;
+}
+
+blockquote:before {
+    display: none;
+}
+
+/* Common Questions */
+#common-questions {
+    background: white;
+}
+#common-questions p {
+    font-size: 19px;
+    color:  #5f8250;
+}
+
+.points {
+    color: #5f8250;
+    font-size: 19px;
+}
+
+/*Buy it Now */
+.money {
+    text-decoration: line-through;
+}
+.cards {
+    padding-left: 13%;
+}
+
+/* For Businesses */
+#for-businesses h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#for-businesses p {
+    font-size: 19px;
+    color:  #5f8250;
+}
+
+#for-businesses li {
+    font-size: 19px;
+    color:  #5f8250;
+}
+
+#for-businesses h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#for-businesses p.smaller {
+    text-align: center;
+}
+
+#for-businesses p.faster {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#for-businesses h3 {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    color:  #5f8250;
+}
+
+
+/* Become a Dealer */
+#become-a-dealer p {
+    font-size: 19px;
+    color:  #5f8250;
+}
+
+#become-a-dealer p.lead {
+    text-align: center;
+}
+
+#become-a-dealer li {
+    font-size: 19px;
+    color: #5f8250;
+    text-align: left;
+}
+
+#become-a-dealer h2 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#become-a-dealer h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    color: #5f8250;
+}
+
+#become-a-dealer h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    color: #5f8250;
+}
+
+#become-a-dealer .image {
+    text-align: center;
+}
+
+#become-a-dealer .btn {
+   margin-top: 15px;
+   
+}
+
+#become-a-dealer p.faster {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#about h2 {
+    margin-bottom: 0;
+    
+}
+#about p.lead {
+    font-size: 19px;
+    color:  #5f8250;
+}
+
+#about iframe {
+    margin-top: 20px;
+}
+
+#contact h2{
+    text-align: center;
+    color: #5f8250;
+    margin-bottom: 5px;
+}
+
+#contact h3{
+    text-align: center;
+    color: #5f8250;
+    margin-top: 0;
+}
+
+#contact .btn {
+    vertical-align: middle;
+}
+
+#contact .form-group {
+    
+}
+
