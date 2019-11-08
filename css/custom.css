@@ -303,6 +303,12 @@ blockquote:before {
 }
 
 /* Common Questions */
+#common-questions h2{
+    text-align: center;
+}
+#common-questions .testimonial {
+    text-align: center;
+}
 #common-questions {
     background: white;
 }
@@ -322,6 +328,11 @@ blockquote:before {
 }
 .cards {
     padding-left: 13%;
+}
+#buy-it-now h1, h3 {
+    text-align: center;
+    margin-bottom: 0;
+    color: #5f8250;
 }
 
 /* For Businesses */
@@ -443,4 +454,5 @@ blockquote:before {
 #contact .form-group {
     
 }
+
 
